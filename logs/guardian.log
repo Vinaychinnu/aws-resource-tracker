@@ -1,0 +1,52 @@
+[20/09/2025 09:59] [INFO] Starting Health Monitor
+[20/09/2025 09:59] [INFO] Cpu Load:  0.00
+[20/09/2025 09:59] [INFO] Memory Usage: Memory usage: 643Mi / 7.6Gi
+[20/09/2025 09:59] [INFO] Disk Usage: Disk usage: 3.1G / 1007G (1% used)
+[20/09/2025 09:59] [INFO] Health Monitor completed
+[20/09/2025 10:03] [INFO] Starting Health Monitor
+[20/09/2025 10:03] [INFO] Cpu Load:  0.00
+[20/09/2025 10:03] [INFO] Memory Usage: Memory usage: 651Mi / 7.6Gi
+[20/09/2025 10:03] [INFO] Disk Usage: Disk usage: 3.1G / 1007G (1% used)
+[20/09/2025 10:03] [INFO] Health Monitor completed
+
+[20/09/2025 10:14] [INFO] Starting Health Monitor
+
+[20/09/2025 10:14] [INFO] Cpu Load:  0.06
+
+[20/09/2025 10:14] [INFO] Memory Usage: Memory usage: 651Mi / 7.6Gi
+
+[20/09/2025 10:14] [INFO] Disk Usage: Disk usage: 3.1G / 1007G (1% used)
+
+[20/09/2025 10:14] [INFO] Health Monitor completed
+
+[20/09/2025 10:14] [INFO] Starting Health Monitor
+
+[20/09/2025 10:14] [INFO] Cpu Load:  0.05
+
+[20/09/2025 10:14] [INFO] Memory Usage: Memory usage: 655Mi / 7.6Gi
+
+[20/09/2025 10:14] [INFO] Disk Usage: Disk usage: 3.1G / 1007G (1% used)
+
+[20/09/2025 10:14] [INFO] Health Monitor completed
+
+[20/09/2025 10:15] [INFO] Starting Health Monitor
+
+[20/09/2025 10:15] [INFO] Cpu Load:  0.07
+
+[20/09/2025 10:15] [INFO] Memory Usage: Memory usage: 654Mi / 7.6Gi
+
+[20/09/2025 10:15] [INFO] Disk Usage: Disk usage: 3.1G / 1007G (1% used)
+
+[20/09/2025 10:15] [INFO] Health Monitor completed
+
+[20/09/2025 10:17] [INFO] Starting Health Monitor
+[20/09/2025 10:17] [INFO] Cpu Load:  0.06
+[20/09/2025 10:17] [INFO] Memory Usage: Memory usage: 654Mi / 7.6Gi
+[20/09/2025 10:17] [INFO] Disk Usage: Disk usage: 3.1G / 1007G (1% used)
+[20/09/2025 10:17] [INFO] Health Monitor completed
+
+[20/09/2025 10:17] [INFO] Starting Health Monitor
+[20/09/2025 10:17] [INFO] Cpu Load:  0.05
+[20/09/2025 10:17] [INFO] Memory Usage: Memory usage: 656Mi / 7.6Gi
+[20/09/2025 10:17] [INFO] Disk Usage: Disk usage: 3.1G / 1007G (1% used)
+[20/09/2025 10:17] [INFO] Health Monitor completed
