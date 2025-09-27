@@ -50,3 +50,34 @@
 [20/09/2025 10:17] [INFO] Memory Usage: Memory usage: 656Mi / 7.6Gi
 [20/09/2025 10:17] [INFO] Disk Usage: Disk usage: 3.1G / 1007G (1% used)
 [20/09/2025 10:17] [INFO] Health Monitor completed
+[27/09/2025 04:47] [INFO] Starting Service Watchdog
+[27/09/2025 04:47] [WARN] ALERT: nginx is NOT running, attempting restart...
+[27/09/2025 04:47] [ERROR] FAIL: nginx could not be restarted
+[27/09/2025 04:47] [WARN] ALERT: sshd is NOT running, attempting restart...
+[27/09/2025 04:47] [ERROR] FAIL: sshd could not be restarted
+[27/09/2025 04:47] [INFO] OK: cron is running
+[27/09/2025 04:47] [WARN] ALERT: httpd is NOT running, attempting restart...
+[27/09/2025 04:47] [ERROR] FAIL: httpd could not be restarted
+[27/09/2025 04:47] [WARN] ALERT: jenkins is NOT running, attempting restart...
+[27/09/2025 04:47] [ERROR] FAIL: jenkins could not be restarted
+[27/09/2025 04:47] [INFO] OK: apache2 is running
+[27/09/2025 04:47] [INFO] Service Watchdog completed
+
+[27/09/2025 04:48] [INFO] Starting Service Watchdog
+[27/09/2025 04:48] [WARN] ALERT: nginx is NOT running, attempting restart...
+[27/09/2025 04:48] [ERROR] FAIL: nginx could not be restarted
+[27/09/2025 04:48] [WARN] ALERT: sshd is NOT running, attempting restart...
+[27/09/2025 04:48] [ERROR] FAIL: sshd could not be restarted
+[27/09/2025 04:48] [INFO] OK: cron is running
+[27/09/2025 04:48] [WARN] ALERT: httpd is NOT running, attempting restart...
+[27/09/2025 04:48] [ERROR] FAIL: httpd could not be restarted
+[27/09/2025 04:48] [WARN] ALERT: jenkins is NOT running, attempting restart...
+[27/09/2025 04:48] [ERROR] FAIL: jenkins could not be restarted
+[27/09/2025 04:48] [INFO] OK: apache2 is running
+[27/09/2025 04:48] [INFO] Service Watchdog completed
+
+[27/09/2025 04:49] [INFO] Starting Health Monitor
+[27/09/2025 04:49] [INFO] Cpu Load:  0.00
+[27/09/2025 04:49] [INFO] Memory Usage: Memory usage: 678Mi / 7.6Gi
+[27/09/2025 04:49] [INFO] Disk Usage: Disk usage: 3.2G / 1007G (1% used)
+[27/09/2025 04:49] [INFO] Health Monitor completed

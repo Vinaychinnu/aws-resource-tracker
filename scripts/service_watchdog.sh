@@ -1,22 +1,31 @@
 #!/bin/bash
 # Restart critical services if down
 
-CONFIG_FILE="config/services.conf"
+# Load logging library
+. "$(dirname "$0")/lib/logging.sh"
 
-echo "==== Service Watchdog ===="
+echo "" >> "$LOG_FILE"
+
+log "INFO" "Starting Service Watchdog"
+
+CONFIG_FILE="./config/services.conf"
 
 while IFS= read -r service; do
+    if [[ -z "$service" || "$service" =~ ^# ]]; then
+        continue  # skip empty lines or comments
+    fi
+
     if systemctl is-active --quiet "$service"; then
-        echo "OK: $service is running"
+        log "INFO" "OK: $service is running"
     else
-        echo "ALERT: $service is NOT running, attempting restart..."
+        log "WARN" "ALERT: $service is NOT running, attempting restart..."
         sudo systemctl restart "$service"
         if systemctl is-active --quiet "$service"; then
-            echo "SUCCESS: $service restarted"
+            log "INFO" "SUCCESS: $service restarted"
         else
-            echo "FAIL: $service could not be restarted"
+            log "ERROR" "FAIL: $service could not be restarted"
         fi
     fi
 done < "$CONFIG_FILE"
 
-echo "=========================="
+log "INFO" "Service Watchdog completed"
