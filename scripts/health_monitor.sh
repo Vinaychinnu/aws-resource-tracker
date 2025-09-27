@@ -3,7 +3,7 @@
 # Basic System health monitoring with logging
 
 # Load logging library
-. "$(dirname "$0")/lib/logging.sh"
+. "$(dirname "$0")/lib/logger.sh"
 
 echo "" >> "$LOG_FILE"
 

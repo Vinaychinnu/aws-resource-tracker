@@ -10,7 +10,7 @@ log() {
     local level="$1"
     local message="$2"
     local timestamp
-    timestamp=$(date '+%d/%m/%Y %H:%M')
+    timestamp=$(date '+%d-%m-%Y %H:%M')
 
     # Print to console
     echo "[$timestamp] [$level] $message"

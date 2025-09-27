@@ -2,7 +2,7 @@
 # scripts/network_snapshot.sh - Capture a full network snapshot with logging
 
 # Load logging library
-. "$(dirname "$0")/lib/logging.sh"
+. "$(dirname "$0")/lib/logger.sh"
 
 echo "" >> "$LOG_FILE"
 

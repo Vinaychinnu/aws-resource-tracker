@@ -124,3 +124,23 @@
 [27/09/2025 05:03] [ERROR] FAIL: jenkins could not be restarted
 [27/09/2025 05:03] [INFO] OK: apache2 is running
 [27/09/2025 05:03] [INFO] Service Watchdog completed
+
+[27/09/2025 09:25] [INFO] Starting log backup
+[27/09/2025 09:25] [ERROR] Failed to create backup archive
+
+[27/09/2025 09:25] [INFO] Starting Health Monitor
+[27/09/2025 09:25] [INFO] Cpu Load:  0.00
+[27/09/2025 09:25] [INFO] Memory Usage: Memory usage: 757Mi / 7.6Gi
+[27/09/2025 09:25] [INFO] Disk Usage: Disk usage: 3.2G / 1007G (1% used)
+[27/09/2025 09:25] [INFO] Health Monitor completed
+
+[27/09/2025 09:25] [INFO] Starting log backup
+[27/09/2025 09:25] [ERROR] Failed to create backup archive
+
+[27-09-2025 09:27] [INFO] Starting log backup
+[27-09-2025 09:27] [INFO] Logs successfully archived to backups/logs_backup_27-09-2025_0927.tar.gz
+[27-09-2025 09:27] [INFO] Log backup completed
+
+[27-09-2025 09:28] [INFO] Starting log backup
+[27-09-2025 09:28] [INFO] Logs successfully archived to backups/logs_backup_27-09-2025_09:28.tar.gz
+[27-09-2025 09:28] [INFO] Log backup completed
