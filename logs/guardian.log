@@ -148,3 +148,57 @@
 [27-09-2025 09:34] [INFO] Starting log backup
 [27-09-2025 09:34] [INFO] Logs successfully archived to backups/logs_backup_27-09-2025_09:34.tar.gz
 [27-09-2025 09:34] [INFO] Log backup completed
+
+[27-09-2025 17:48] [INFO] Starting Health Monitor
+[27-09-2025 17:48] [INFO] Cpu Load:  0.00
+[27-09-2025 17:48] [INFO] Memory Usage: Memory usage: 768Mi / 7.6Gi
+[27-09-2025 17:48] [INFO] Disk Usage: Disk usage: 3.2G / 1007G (1% used)
+[27-09-2025 17:48] [INFO] Health Monitor completed
+
+[27-09-2025 17:48] [INFO] Starting Health Monitor
+[27-09-2025 17:48] [INFO] Cpu Load:  0.00
+[27-09-2025 17:48] [INFO] Memory Usage: Memory usage: 768Mi / 7.6Gi
+[27-09-2025 17:48] [INFO] Disk Usage: Disk usage: 3.2G / 1007G (1% used)
+[27-09-2025 17:48] [INFO] Health Monitor completed
+
+[27-09-2025 17:56] [INFO] Guardian Orchestrator started
+
+[27-09-2025 17:56] [INFO] Starting Health Monitor
+[27-09-2025 17:56] [INFO] Cpu Load:  0.00
+[27-09-2025 17:56] [INFO] Memory Usage: Memory usage: 773Mi / 7.6Gi
+[27-09-2025 17:56] [INFO] Disk Usage: Disk usage: 3.2G / 1007G (1% used)
+[27-09-2025 17:56] [INFO] Health Monitor completed
+
+[27-09-2025 17:56] [INFO] Starting Service Watchdog
+[27-09-2025 17:56] [WARN] ALERT: nginx is NOT running, attempting restart...
+[27-09-2025 17:56] [ERROR] FAIL: nginx could not be restarted
+[27-09-2025 17:56] [WARN] ALERT: sshd is NOT running, attempting restart...
+[27-09-2025 17:56] [ERROR] FAIL: sshd could not be restarted
+[27-09-2025 17:56] [INFO] OK: cron is running
+[27-09-2025 17:56] [WARN] ALERT: httpd is NOT running, attempting restart...
+[27-09-2025 17:56] [ERROR] FAIL: httpd could not be restarted
+[27-09-2025 17:56] [WARN] ALERT: jenkins is NOT running, attempting restart...
+[27-09-2025 17:56] [ERROR] FAIL: jenkins could not be restarted
+[27-09-2025 17:56] [INFO] OK: apache2 is running
+[27-09-2025 17:56] [INFO] Service Watchdog completed
+
+[27-09-2025 17:56] [INFO] Starting Network Snapshot
+[27-09-2025 17:56] [INFO] Capturing network interfaces
+[27-09-2025 17:56] [INFO] Capturing routing table
+[27-09-2025 17:56] [INFO] Capturing active TCP/UDP connections
+[27-09-2025 17:56] [INFO] Capturing listening ports
+[27-09-2025 17:56] [INFO] Capturing ARP table
+[27-09-2025 17:56] [INFO] Capturing DNS resolvers
+[27-09-2025 17:56] [INFO] Capturing firewall rules
+[27-09-2025 17:56] [INFO] Testing connectivity (ping to 8.8.8.8)
+[27-09-2025 17:56] [INFO] Capturing interface traffic stats
+[27-09-2025 17:56] [INFO] Network Snapshot completed
+
+[27-09-2025 17:56] [INFO] Starting log backup
+[27-09-2025 17:56] [INFO] Logs successfully archived to backups/logs_backup_27-09-2025_17:56.tar.gz
+[27-09-2025 17:56] [INFO] Log backup completed
+[27-09-2025 17:56] [INFO] Guardian Orchestrator completed
+
+[27-09-2025 17:56] [INFO] Guardian Orchestrator started
+
+[27-09-2025 17:57] [INFO] Guardian Orchestrator started
