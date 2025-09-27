@@ -15,6 +15,11 @@ ARCHIVE="$BACKUP_DIR/logs_backup_$TIMESTAMP.tar.gz"
 
 log "INFO" "Starting log backup"
 
+if [ ! -d "logs" ]; then
+    log "ERROR" "No logs directory found to backup"
+    exit 1
+fi
+
 if tar -czf "$ARCHIVE" logs/ 2>/dev/null; then
     log "INFO" "Logs successfully archived to $ARCHIVE"
 else
