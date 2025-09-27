@@ -81,3 +81,46 @@
 [27/09/2025 04:49] [INFO] Memory Usage: Memory usage: 678Mi / 7.6Gi
 [27/09/2025 04:49] [INFO] Disk Usage: Disk usage: 3.2G / 1007G (1% used)
 [27/09/2025 04:49] [INFO] Health Monitor completed
+
+[27/09/2025 05:00] [INFO] Starting Network Snapshot
+[27/09/2025 05:00] [INFO] Capturing network interfaces
+[27/09/2025 05:00] [INFO] Capturing routing table
+[27/09/2025 05:00] [INFO] Capturing active TCP/UDP connections
+[27/09/2025 05:00] [INFO] Capturing listening ports
+[27/09/2025 05:00] [INFO] Capturing ARP table
+[27/09/2025 05:00] [INFO] Capturing DNS resolvers
+[27/09/2025 05:00] [INFO] Capturing firewall rules
+[27/09/2025 05:00] [INFO] Testing connectivity (ping to 8.8.8.8)
+[27/09/2025 05:00] [INFO] Capturing interface traffic stats
+[27/09/2025 05:00] [INFO] Network Snapshot completed
+
+[27/09/2025 05:02] [INFO] Starting Network Snapshot
+[27/09/2025 05:02] [INFO] Capturing network interfaces
+[27/09/2025 05:02] [INFO] Capturing routing table
+[27/09/2025 05:02] [INFO] Capturing active TCP/UDP connections
+[27/09/2025 05:02] [INFO] Capturing listening ports
+[27/09/2025 05:02] [INFO] Capturing ARP table
+[27/09/2025 05:02] [INFO] Capturing DNS resolvers
+[27/09/2025 05:02] [INFO] Capturing firewall rules
+[27/09/2025 05:02] [INFO] Testing connectivity (ping to 8.8.8.8)
+[27/09/2025 05:02] [INFO] Capturing interface traffic stats
+[27/09/2025 05:02] [INFO] Network Snapshot completed
+
+[27/09/2025 05:03] [INFO] Starting Health Monitor
+[27/09/2025 05:03] [INFO] Cpu Load:  0.07
+[27/09/2025 05:03] [INFO] Memory Usage: Memory usage: 688Mi / 7.6Gi
+[27/09/2025 05:03] [INFO] Disk Usage: Disk usage: 3.2G / 1007G (1% used)
+[27/09/2025 05:03] [INFO] Health Monitor completed
+
+[27/09/2025 05:03] [INFO] Starting Service Watchdog
+[27/09/2025 05:03] [WARN] ALERT: nginx is NOT running, attempting restart...
+[27/09/2025 05:03] [ERROR] FAIL: nginx could not be restarted
+[27/09/2025 05:03] [WARN] ALERT: sshd is NOT running, attempting restart...
+[27/09/2025 05:03] [ERROR] FAIL: sshd could not be restarted
+[27/09/2025 05:03] [INFO] OK: cron is running
+[27/09/2025 05:03] [WARN] ALERT: httpd is NOT running, attempting restart...
+[27/09/2025 05:03] [ERROR] FAIL: httpd could not be restarted
+[27/09/2025 05:03] [WARN] ALERT: jenkins is NOT running, attempting restart...
+[27/09/2025 05:03] [ERROR] FAIL: jenkins could not be restarted
+[27/09/2025 05:03] [INFO] OK: apache2 is running
+[27/09/2025 05:03] [INFO] Service Watchdog completed
